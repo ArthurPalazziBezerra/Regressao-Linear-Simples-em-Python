@@ -1,2 +1,11 @@
-# Regressao-Linear-Simples-em-Python
-Este projeto tem como objetivo explorar a relação entre duas variáveis — Frequência Anual (FrqAnual) e Custo Inicial (CusInic) — utilizando um modelo de regressão linear simples construído em Python.
+<h1>Regressão Linear Simples em Python</h1>
+
+Este projeto tem como objetivo explorar a relação entre duas variáveis — Frequência Anual (FrqAnual) e Custo Inicial (CusInic) — utilizando um modelo de regressão linear simples construído em Python. A ideia central é desenvolver uma análise clara, visual e intuitiva que permita não apenas compreender essa relação, mas também realizar previsões a partir dela.
+
+O processo começa com a importação das bibliotecas essenciais, como pandas e numpy para manipulação dos dados, matplotlib para visualização e scikit-learn para construção do modelo de regressão. Em seguida, os dados são carregados a partir de um arquivo CSV, e as primeiras observações são examinadas para garantir que a estrutura esteja adequada. A variável FrqAnual é definida como variável independente, enquanto CusInic é tratada como variável dependente. Também é calculada a correlação entre essas duas variáveis, permitindo avaliar previamente a força da relação linear.
+
+Após essa etapa exploratória, os dados são ajustados ao formato necessário para o modelo, garantindo que a matriz de preditores esteja estruturada corretamente. O modelo de regressão linear é então criado e treinado com o comando fit, que realiza todo o processamento interno para estimar os coeficientes da equação de regressão. Uma vez treinado, o modelo passa a ser capaz de gerar previsões com base em novos valores de frequência anual.
+
+A análise também conta com uma visualização gráfica que combina os pontos reais presentes na base de dados com a linha de regressão ajustada. Esse gráfico facilita muito a interpretação da tendência geral dos dados e permite observar como o modelo se comporta na prática. Além disso, o projeto inclui uma previsão final baseada em um valor anual específico fornecido manualmente, demonstrando de forma clara como o modelo pode ser aplicado em cenários reais.
+
+De forma geral, este projeto oferece uma visão completa do processo de criação de um modelo de regressão linear simples em Python, passando por inspeção de dados, cálculo de correlação, treinamento do modelo, visualização e geração de previsões. É uma base sólida para qualquer pessoa que deseje entender ou aplicar regressão linear para análises rápidas e objetivas. Caso queira expandir este projeto com métricas de desempenho, análises de resíduos ou métodos de validação.
